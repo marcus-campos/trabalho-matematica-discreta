@@ -4,19 +4,15 @@
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
     <ion-title>
-      List
+      Assuntos
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let item of items">
-      <ion-icon [name]="item.icon" slot="start"></ion-icon>
+    <ion-item *ngFor="let item of items" (click)="selectedItem(item)">
       {{item.title}}
-      <div class="item-note" slot="end">
-        {{item.note}}
-      </div>
     </ion-item>
   </ion-list>
   <!--

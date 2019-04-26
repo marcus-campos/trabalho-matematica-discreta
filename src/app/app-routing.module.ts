@@ -14,12 +14,14 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },
+  { path: 'propositions', loadChildren: './propositions/propositions.module#PropositionsPageModule' },
+  { path: 'true-table', loadChildren: './true-table/true-table.module#TrueTablePageModule' }
 ];
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
+    RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules }),
   ],
   exports: [RouterModule]
 })

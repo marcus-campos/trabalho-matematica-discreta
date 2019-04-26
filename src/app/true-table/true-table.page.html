@@ -1,0 +1,264 @@
+<ion-header>
+  <ion-toolbar>
+      <ion-back-button defaultHref="list" [text]="'Voltar'"></ion-back-button>
+    <ion-title>Tabela verdade</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  1) Proposição
+
+Proposição é uma  frase que pode apenas ser ou verdadeira ou falsa.
+
+Considere as frases abaixo:
+
+Oito é maior que cinco.
+Como está a aula?
+Ela é muito bonita.
+Existem gatos verdes.
+
+Pode-se observar que:
+
+É uma proposição...é uma frase verdadeira.
+Não é uma proposição, pois é apenas  uma pergunta e não pode ser classificada como falsa e nem verdadeira.
+Não é uma proposição, pois “ela” é indefinido e não se pode classificar como falsa e nem verdadeira.
+É uma proposição...embora seja necessário uma pesquisa para confirmar se é falsa ou verdadeira.
+
+2) Conectivos
+
+Conectivos, de modo geral, são formas de ligações entre proposições. Os que serão usados aqui estão relacionados a seguir:
+
+                                                                                                      Lê-se:
+	^ “e”
+Conjunção
+A ^ B
+A e B
+ “ou”
+Disjunção
+AB
+A ou B
+
+
+Implicação
+A       B
+A implica B
+
+
+Equivalência
+A              B
+A é equivalente a B
+~
+negação
+~A
+Não A
+
+Notas: 
+A negação é um conectivo especial, podendo atuar sobre uma única  proposição.
+~A ainda pode ser representado por: A’ ou por ~A.
+
+
+3) Tabela verdade
+	É um quadro onde são expostos os valores ( falso e verdadeiro ) de uma proposição simples ou de uma sentença formada por várias proposições.
+
+Para uma proposição a tabela tem a forma:     
+A
+V
+F
+ 
+
+
+
+
+Para duas proposições a forma da tabela é: 
+                                                         
+A
+B
+V
+V
+V
+F
+F
+V
+F
+F
+      
+
+
+
+
+
+
+Nota:
+	
+Pode-se constatar que o número de linhas de uma tabela verdade com n proposições é igual a “2n”, onde n é o número proposições.
+	
+
+4) Tabela verdade das proposições  fundamentais, relacionadas com os conectivos.
+
+a) Conjunção:  A  ^ B  - A conjunção só será verdadeira quando ambas as proposições forem verdadeira, ou seja: 
+A
+B
+A ^ B
+V
+V
+V
+V
+F
+F
+F
+V
+F
+F
+F
+F
+
+5 > 3 e 7 > 2 é verdadeiro
+5 > 3 e 7 < 2 é falso
+5 < 3 e 7 > 2 é falso
+5 < 3 e 7 < 2 é falso          A tabela é verdade, portanto é:
+
+
+
+
+b) Disjunção: A  B   - A disjunção será verdadeira se pelo menos uma das proposições forem verdadeiras, ou seja:
+A
+B
+A  B
+V
+V
+V
+V
+F
+V
+F
+V
+V
+F
+F
+F
+
+5 > 3 e 7 > 2 é verdadeiro
+5 > 3 e 7 < 2 é verdadeiro
+5 < 3 e 7 > 2 é verdadeiro
+5 < 3 e 7 < 2 é falso          A tabela é verdade, portanto é:
+
+
+c) Negação: A’ – Tabela verdade:
+
+A
+A’
+V
+F
+F
+V
+
+
+
+
+
+
+d) Implicação: A              B
+
+A é chamado antecedente e B é chamado consequente.
+
+A              B ( A implica B ) significa  também:
+                        B decorre de A;
+                        A é condição suficiente para B;
+                        Se A , então B;                   
+ 	
+Na implicação é um pouco mais difícil de se verificar quando é verdadeiro ou falso, portanto, considere  o seguinte : a implicação só será falsa se o antecedente for verdadeiro e o conseqüente falso.
+
+Supondo A: passar no vestibular e B: ganhar um carro, a implicação A       B significa  que ganhar o carro decorre do fato de  ter passado no vestibular. Se  não passar no vestibular pode-se ganhar o carro ou não, por isto é convencionado ser verdadeiro. Só é falso se passar no vestibular e não ganhar o carro. Logo a tabela verdade é:
+
+A
+B
+A      B
+V
+V
+V
+V
+F
+F
+F
+V
+V
+F
+F
+V
+Obs: Todo teorema  é uma implicação da forma 	
+         Hipótese           tese
+             ( V )             ( V )
+
+Ex: Se P é número primo e positivo, então o M.D.C
+ 
+(  P , P2 ) é P	
+
+
+e) Equivalência: A              B 
+A equivalência é uma dupla implicação, ou seja  ( A           B ) ^ ( B           A ) e lê-se: A se, somente se, B.
+A tabela verdadeira é a seguinte:
+	
+A
+B
+  A         B
+   B         A
+(A        B) ^ (B        A)
+V
+V
+V
+V
+V
+V
+F
+F
+V
+F
+F
+V
+V
+F
+F
+F
+F
+V
+V
+V
+
+
+
+
+
+Ex) toda reta do plano é representada pela equação Ax + By + C = 0, logo toda equação do tipo 
+Ax + By + C = 0  representa uma reta do plano.
+
+Notas:
+
+1) Condição suficiente.
+
+P é condição suficiente para Q significa:     se P, então            Q ( P       Q )
+
+Note ainda que numa sentença, em português, o antecedente pode vir depois do consequente. Assim, em “ uma condição suficiente para interromper a energia elétrica  é desligar a chave geral”, P é desligar a chave geral( Antecedente) e Q é interromper a energia elétrica( Consequente).
+
+Se desligar a chave geral, então interrompe a energia elétrica (P         Q).
+
+2) Condição necessária:
+
+P é uma condição necessária para Q significa:  se não P, então não Q	~P        ~Q
+
+     ou, como será visto adiante, Q        P
+
+Na sentença “ fogo é condição necessária para fumaça” tem-se:
+Se não há fogo, logo não há fumaça.
+     ~ P           ~ Q
+	
+Se há fumaça, então há fogo.
+
+3) A equivalência sempre retrata uma condição necessária e sufiente.
+
+Hipótese              tese
+
+Ex: se a < divisor de b, então existe um inteiro c tal que c.a = b.
+
+ 2|12 pois 2.6 = 12( lê-se : 2 é divisor de 12 pois 6.2 = 12)
+
+</ion-content>

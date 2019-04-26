@@ -1,0 +1,51 @@
+{
+    "trueTable": {
+        "steps": [
+            {
+                "text": "1) Proposição \n Proposição é uma frase que pode apenas ser ou verdadeira ou falsa. \n Considere as frases abaixo: \n a) Oito é maior que cinco. \n b) Como está a aula? \n c) Ela é muito bonita. \n d) Existem gatos verdes. \n"
+            },
+            {
+                "text": "Pode-se observar que: \n a) É uma proposição... é uma frase verdadeira. \n b) Não é uma proposição, pois é apenas uma pergunta e não pode ser classificada como falsa nem verdadeira. \n c) Não é uma proposição, pois “ela” é indefinido e não se pode classificar como falsa e nem verdadeira. \n d) É uma proposição...embora seja necessário uma pesquisa para confirmar se é falsa ou verdadeira; \n"
+            },
+            {
+                "text": "2) Conectivos \n Conectivos, de modo geral, são formas de ligações entre proposições. Os que serão usados aqui estão relacionados a seguir: \n {%.D:/Sistemas de Informação/1º Periodo/trabalho-matematica-discreta/MatDis/imagem/Tabela1.png%}"
+            },
+            {
+                "text": "\nNotas \n 1) A negação é um conectivo especial, podendo atuar sobre uma única proposição. \n 2) ~A ainda pode ser representado por: A' ou por ~A. \n"
+            },
+            {
+                "text": "3) Tabela Verdade \n É um quadro onde são expostos os valores ( falso e verdadeiro ) de uma proposição simples ou de uma sentença formada por várias proposições. \n Para uma proposição a tabela tem a forma: \n {%.D:/Sistemas de Informação/1º Periodo/trabalho-matematica-discreta/MatDis/imagem/Tv1.png%} \n Para duas proposições a forma da tabela é: \n {%.D:/Sistemas de Informação/1º Periodo/trabalho-matematica-discreta/MatDis/imagem/Tv2.png%} \n Nota: \n Pode-se constatar que o número de linhas de uma tabela verdade com n proposições é igual a “2^n” (dois elevado a n), onde n é o número proposições. \n"
+            },
+            {
+                "text": "4) Tabela verdade das proposições  fundamentais, relacionadas com os conectivos. \n a) Conjunção:  A ^ B - A conjunção só será verdadeira quando ambas as proposições forem verdadeiras, ou seja: \n 5 > 3 e 7 > 2 é verdadeiro\n 5 > 3 e 7 < 2 é falso\n 5 < 3 e 7 > 2 é falso\n 5 < 3 e 7 < 2 é falso\n A tabela é verdade, portanto é: \n {%.D:/Sistemas de Informação/1º Periodo/trabalho-matematica-discreta/MatDis/imagem/Tv3.png%} \n"
+            },
+            {
+                "text": "b) Disjunção: A   B  - A disjunção será verdadeira se pelo menos uma das proposições forem verdadeiras, ou seja:\n 5 > 3 e 7 > 2 é verdadeiro\n 5 > 3 e 7 < 2 é verdadeiro\n 5 < 3 e 7 > 2 é verdadeiro \n 5 < 3 e 7 < 2 é falso\n A tabela é verdade, portanto é: \n  {%.D:/Sistemas de Informação/1º Periodo/trabalho-matematica-discreta/MatDis/imagem/Tv4.png%}"
+            },
+            {
+                "text": "c) Negação: A’ – Tabela verdade:\n {%./imagem/Tv5.png%}\n"
+            },
+            {
+                "text": "d) Implicação: A ----> B\n A é chamado antecedente e B é chamado consequente.\n A ----> B ( A implica B ) significa  também:\n B decorre de A;\n A é condição suficiente para B;\n Se A, então B;\n Na implicação é um pouco mais difícil de se verificar quando é verdadeiro ou falso, portanto, considere  o seguinte : a implicação só será falsa se o antecedente for verdadeiro e o conseqüente falso.\n "
+            },
+            {
+                "text": "Supondo A: passar no vestibular e B: ganhar um carro, a implicação A ----> B significa que ganhar o carrodecorre do fato de  ter passado no vestibular. Se  não passar no vestibular pode-se ganhar o carro ou não, por isto é convencionado ser verdadeiro. Só é falso se passar no vestibular e não ganhar o carro. Logo a tabela verdade é: \n {%./imagem/Tv6.png%}\n "
+            },
+            {
+                "text": "e) Equivalência: A <----> B \n A equivalência é uma dupla implicação, ou seja (A <----> B)^(B <----> A)e lê-se: A se, somente se, B. A tabela verdadeira é a seguinte \n:{%./imagem/Tv7.png%} \n Ex) toda reta do plano é representada pela equação Ax + By + C = 0, logo toda equação do tipo Ax + By + C = 0  representa uma reta do plano. \n"
+            },
+            {
+                "text": "Notas: \n 1) Condição suficiente.\n P é condição suficiente para Q significa: se P, então\n {%./imagem/PQ1.png%} \n Note ainda que numa sentença, em português, o antecedente pode vir depois do consequente. Assim, em “ uma condição suficiente para interromper a energia elétrica  é desligar a chave geral”, P é desligar a chave geral( Antecedente) e Q é interromper a energia elétrica( Consequente). Se desligar a chave geral, então interrompe a energia (P ----> Q).\n"
+            },
+            {
+                "text": "2) Condição necessária:\n P é uma condição necessária para Q significa:  se não P, então não Q, ou, como será visto adiante, Q ----> P \n{%./imagem/PQ2.png%}\n Na sentença “ fogo é condição necessária para fumaça” tem-se: Se não há fogo, logo não há fumaça.  ~P ----> ~Q \nSe há fumaça, então há fogo. \n"
+            },
+            {
+                "text": "3) A equivalência sempre retrata uma condição necessária e sufiente. Hipótese <----> Tese \n Ex: se a < divisor de b, então existe um inteiro c tal que c.a = b. \n  2|12 pois 2.6 = 12( lê-se : 2 é divisor de 12 pois 6.2 = 12)"
+            },
+            {
+                "text": "Para fazer uma tabela verdade você tem que fazer isso dai \n dhasdhasdjsa {%./imagem/Tv5.png%}"
+            },
+        ]   
+    }
+}
