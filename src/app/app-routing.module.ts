@@ -16,7 +16,10 @@ const routes: Routes = [
     loadChildren: './list/list.module#ListPageModule'
   },
   { path: 'propositions', loadChildren: './propositions/propositions.module#PropositionsPageModule' },
-  { path: 'true-table', loadChildren: './true-table/true-table.module#TrueTablePageModule' }
+  { path: 'true-table', loadChildren: './true-table/true-table.module#TrueTablePageModule' },
+  { path: 'de-morgan', loadChildren: './de-morgan/de-morgan.module#DeMorganPageModule' },
+  { path: 'tautologie', loadChildren: './tautologie/tautologie.module#TautologiePageModule' },
+  { path: 'argument', loadChildren: './argument/argument.module#ArgumentPageModule' }
 ];
 
 @NgModule({

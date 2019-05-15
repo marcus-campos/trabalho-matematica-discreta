@@ -27,19 +27,23 @@ export class ListPage implements OnInit {
         {
           id: 'tautologie',
           title: 'Tautologia'
+        },
+        {
+          id: 'argument',
+          title: 'Argumento tabela verdade'
         }
       ];
   }
 
   selectedItem(item) {
     console.log(item)
-    this.navigate();
+    this.navigate(item);
   }
 
   ngOnInit() {
   }
   // add back when alpha.4 is out
-  navigate() {
-    this.router.navigate(['/true-table']);
+  navigate(item) {
+    this.router.navigate([item.id]);
   }
 }
