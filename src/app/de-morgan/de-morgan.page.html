@@ -1,10 +1,75 @@
 <ion-header>
   <ion-toolbar>
       <ion-back-button defaultHref="list" [text]="'Voltar'"></ion-back-button>
-    <ion-title>DeMorgan</ion-title>
+    <ion-title>Leis De Morgan</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+    <ion-card class="welcome-card">
+        <ion-card-header>
+          <ion-card-title><b>5) Primeira Lei de Morgan - Negação de uma Conjunção</b></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>
+              Vamos analisar a proposição composta “Paulo é pintor e atleta”, onde temos duas proposições simples e ligadas por uma conjunção (conectivo “e”). As proposições simples são:
+              <br>
+              <br>
+              * Paulo é pintor;
+              <br>
+              * Paulo é atleta.
+              <br>
+              <br>
+               A negação da proposição “Paulo é pintor e atleta” é a proposição “Paulo não é pintor ou Paulo não é atleta”, que também pode ser escrita como “Paulo não é pintor ou não é atleta”.
+              <br>
+               Veja que negamos cada uma das proposições simples, e trocamos o conectivo “e” pelo conectivo “ou” (disjunção).
+              <br>
+              <br>
+               De forma simbólica:
+              <br>
+               Sejam “p” e “q” duas proposições.
+              <br>
+              ~ (p ∧ q) = (~p) ∨ (~q)
+              <br>
+              
+              <br>
+              <br>
+              <br>
+          </p>
+        </ion-card-content>
+      </ion-card>
+
+</ion-content>
+
+<ion-content>
+    <ion-card class="welcome-card">
+        <ion-card-header>
+          <ion-card-title><b>6) Segunda Lei de Morgan - Negação de uma Disjunção</b></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          <p>
+              Analisaremos agora a proposição composta “João estuda matemática ou estuda português”, onde temos duas proposições simples e ligadas por uma disjunção (conectivo “ou”). As proposições simples são:
+              <br>
+              <br>
+              * João estuda matemática;
+              <br>
+              * João estuda português”;
+              <br>
+              <br>
+              A negação da proposição “João estuda matemática ou estuda português” é a proposição “João não estuda matemática e João não estuda português”, que também pode ser escrita como “João não estuda matemática e não estuda português”.
+              <br>
+              <br>
+              Veja que negamos cada uma das proposições simples, e trocamos o conectivo “ou” pelo conectivo “e” (conjunção).
+              <br>
+              <br>
+               De forma simbólica:
+              <br>
+               Sejam “p” e “q” duas proposições.
+              <br>
+              ~ (p ∨ q) = (~p) ∧ (~q)
+              <br>
+          </p>
+        </ion-card-content>
+      </ion-card>
 
 </ion-content>
