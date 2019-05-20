@@ -31,6 +31,14 @@ export class ListPage implements OnInit {
         {
           id: 'argument',
           title: 'Argumento'
+        },
+        {
+          id : 'inference',
+          title: 'Regras de Inferência'
+        },
+        {
+          id : 'sobre',
+          title: 'Sobre'
         }
       ];
   }

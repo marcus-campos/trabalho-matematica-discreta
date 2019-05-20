@@ -19,7 +19,9 @@ const routes: Routes = [
   { path: 'true-table', loadChildren: './true-table/true-table.module#TrueTablePageModule' },
   { path: 'de-morgan', loadChildren: './de-morgan/de-morgan.module#DeMorganPageModule' },
   { path: 'tautologie', loadChildren: './tautologie/tautologie.module#TautologiePageModule' },
-  { path: 'argument', loadChildren: './argument/argument.module#ArgumentPageModule' }
+  { path: 'argument', loadChildren: './argument/argument.module#ArgumentPageModule' },  { path: 'inference', loadChildren: './inference/inference.module#InferencePageModule' },
+  { path: 'sobre', loadChildren: './sobre/sobre.module#SobrePageModule' }
+
 ];
 
 @NgModule({

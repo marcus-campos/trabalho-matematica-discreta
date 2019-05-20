@@ -1,0 +1,113 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-back-button defaultHref="list" [text]="'Voltar'"></ion-back-button>
+    <ion-title>Regras de Inferência</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="welcome-card">
+      <ion-card-header>
+        <ion-card-title><b>11) Regras de Inferência</b></ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <p>
+            As regras de dedução para a lógica proposicional são basicamente dois tipos, equivalências e inferências. As regras de equivalências permitem que fbfs individuais sejam reescritas mantendo o mesmo valor logico, enquanto as regras de inferências permitem a dedução de novas fbfs a partir de fbfs anteriores na sequencia de demonstração.
+            <br>
+            <br>
+            As regras de inferências nos dizem que se uma  ou mais fbfs, contidas na primeira coluna das regras de inferência, fazem parte de uma sequencia de demonstração, então podemos adicionar uma nova fbf na sequencia substituindo-se a(s) anterior(es) pela(s) fbfs correspondente(s) na segunda coluna das regras.
+            <br>
+            <br>
+             <b>a) Modus Ponens ( afirmarção) – MP</b> 
+            <br>
+            Ex)
+            <br>
+            A → B	
+            <br>
+            A	  
+            <br>
+            ∴B	      
+            <br>
+            <br>
+            Ex)
+            <br>
+            B → A
+            <br>
+            B
+            <br>
+            ∴A
+            <br>
+            <br>
+             <b>b) Modus tollens (retirar) – MT</b> 
+            <br>
+            Ex)
+            <br>
+            A → B
+            <br>	
+            B’
+            <br>
+            ∴ A’	
+            <br>
+            <br>
+            Ex)
+            <br>
+            B → A
+            <br>
+            A’
+            <br>
+            ∴ B’
+            <br>
+            <br>
+             <b>c) Adição Disjuntiva</b> 
+             <br>
+             Ex)
+             <br>
+             A
+             <br>				
+             ∴ A v B
+             <br>
+             <br>
+             Ex)
+             <br>
+             B
+             <br>
+             ∴ A v B
+             <br>
+             <br>
+             E ainda
+             <br>
+             Ex)
+             <br>
+             A
+             <br>
+             ∴ A v B’
+             <br>
+             <br>
+             Ex)
+             <br>
+             B
+             <br>
+             ∴B v A’   
+             <br>
+             <br>
+              <b>d) Simplificação Conjuntiva – De A,B podemos deduzir</b> 
+              <br>
+             A ^ B
+             <br>				
+             ∴ A 
+             <br>
+             <br>
+             A ^ B		
+             <br>		
+             ∴  B
+             <br>
+             <br>
+             A’ ^ B’		
+             <br>		
+             ∴ A’ 
+        </p>
+      </ion-card-content>
+    </ion-card>
+
+</ion-content>
+ 
