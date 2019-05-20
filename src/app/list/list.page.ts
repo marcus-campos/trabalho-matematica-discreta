@@ -22,7 +22,7 @@ export class ListPage implements OnInit {
         },
         {
           id: 'de-morgan',
-          title: 'Lei de De Morgan'
+          title: 'Lei De Morgan'
         },
         {
           id: 'tautologie',
@@ -30,7 +30,7 @@ export class ListPage implements OnInit {
         },
         {
           id: 'argument',
-          title: 'Argumento tabela verdade'
+          title: 'Argumento'
         }
       ];
   }
