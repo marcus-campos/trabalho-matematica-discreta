@@ -21,6 +21,10 @@ export class ListPage implements OnInit {
           title: 'Tabela verdade'
         },
         {
+          id: 'true-table-iframe',
+          title: 'Gerador de tabela verdade'
+        },
+        {
           id: 'de-morgan',
           title: 'Lei De Morgan'
         },

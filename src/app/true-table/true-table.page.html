@@ -1,114 +1,103 @@
 <ion-header>
   <ion-toolbar>
-      <ion-back-button defaultHref="list" [text]="'Voltar'"></ion-back-button>
+    <ion-back-button defaultHref="list" [text]="'Voltar'"></ion-back-button>
     <ion-title>Tabela verdade</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-    <ion-content>
-        <ion-card class="welcome-card">
-          <ion-card-header>
-            <ion-card-title><b>3) Tabela Verdade</b></ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            <p>
-                É um quadro onde são expostos os valores ( falso e verdadeiro ) de uma proposição simples ou de uma sentença formada por várias proposições. Para uma proposição a tabela tem a forma:
-                <br>
-                <br>
-                <ion-img src="assets/tb.jpg"></ion-img>
-                Para duas proposições a forma da tabela é:
-                <br>
-                <ion-img src="assets/tbf.jpg"></ion-img>
-                Nota:
-                <br>
-                Pode-se constatar que o número de linhas de uma tabela verdade com n proposições é igual a “2ⁿ”, onde n é o número proposições.
-                <br>
-            </p>
-          </ion-card-content>
-        </ion-card>
-    </ion-content>
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title><b>3) Tabela Verdade</b></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        É um quadro onde são expostos os valores ( falso e verdadeiro ) de uma proposição simples ou de uma sentença formada por várias proposições. Para uma proposição a tabela tem a forma:
+        <br>
+        <br>
+        <ion-img src="assets/tb.jpg"></ion-img>
+        Para duas proposições a forma da tabela é:
+        <br>
+        <ion-img src="assets/tbf.jpg"></ion-img>
+        Nota:
+        <br>
+        Pode-se constatar que o número de linhas de uma tabela verdade com n proposições é igual a “2ⁿ”, onde n é o número proposições.
+        <br>
+      </p>
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card class="welcome-card">
+    <ion-card-header>
+      <ion-card-title><b>4) Tabela verdade das proposições  fundamentais, relacionadas com os conectivos.</b></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>
+        a) <b>Conjunção</b>:  A  ^ B  - A conjunção só será verdadeira quando ambas as proposições forem verdadeira, ou seja:
+        <br>
+        5 > 3 e 7 > 2 é verdadeiro
+        <br>
+        5 > 3 e 7 < 2 é falso
+        <br>
+        5 < 3 e 7 > 2 é falso
+        <br>
+        5 < 3 e 7 < 2 é falso
+        <br>
+        <br>
+        A tabela é verdade, portanto é:
+        <br>
+        <ion-img src="assets/tbv.jpg"></ion-img>
+        <br>
+        b) <b>Disjunção:</b> A v B   - A disjunção será verdadeira se pelo menos uma das proposições forem verdadeiras, ou seja:
+        <br>
+        5 > 3 e 7 > 2 é verdadeiro
+        <br>
+        5 > 3 e 7 < 2 é verdadeiro
+        <br>
+        5 < 3 e 7 > 2 é verdadeiro
+        <br>
+        5 < 3 e 7 < 2 é falso
+        <br>
+        <br>
+        A tabela é verdade, portanto é:
+        <br>
+        <ion-img src="assets/tbo.jpg"></ion-img>
+        <br>
+        c) <b>Negação:</b> A’ – Tabela verdade:
+        <br>
+        <ion-img src="assets/tbn.jpg"></ion-img>
+        <br>
+        d) <b>Implicação:</b> A -----> B
+        <br>
+        A é chamado antecedente e B é chamado consequente.
+        <br>
+        A -----> B ( A implica B ) significa  também:
+        <br>
+        B decorre de A;
+        <br>
+        A é condição suficiente para B;
+        <br>
+        Se A , então B;
+        <br>
+        <br>
+        Na implicação é um pouco mais difícil de se verificar quando é verdadeiro ou falso, portanto, considere  o seguinte : a implicação só será falsa se o antecedente for verdadeiro e o conseqüente falso.
+        <br>
+        <br>
+        Supondo A: passar no vestibular e B: ganhar um carro, a implicação A -----> B significa  que ganhar o carro decorre do fato de  ter passado no vestibular. 
+        <br>
+        <br>
+        Se  não passar no vestibular pode-se ganhar o carro ou não, por isto é convencionado ser verdadeiro. Só é falso se passar no vestibular e não ganhar o carro. Logo a tabela verdade é:
+        <br>
+        <ion-img src="assets/tbi.jpg"></ion-img>
+        <br>
+        e) <b>Equivalência:</b> A <----> B
+        <br>
+        A equivalência é uma dupla implicação, ou seja,  ( A ---> B ) ^ ( B ---> A ) e lê-se: A se, somente se, B. A tabela verdadeira é a seguinte:
+        <br>
+        <ion-img src="assets/tbe.jpg"></ion-img>
+      </p>
+    </ion-card-content>
+  </ion-card>
 </ion-content>
-
-<ion-content>
-    <ion-content>
-        <ion-card class="welcome-card">
-          <ion-card-header>
-            <ion-card-title><b>4) Tabela verdade das proposições  fundamentais, relacionadas com os conectivos.</b></ion-card-title>
-          </ion-card-header>
-          <ion-card-content>
-            <p>
-                a) <b>Conjunção</b>:  A  ^ B  - A conjunção só será verdadeira quando ambas as proposições forem verdadeira, ou seja:
-                <br>
-                5 > 3 e 7 > 2 é verdadeiro
-                <br>
-                5 > 3 e 7 < 2 é falso
-                <br>
-                5 < 3 e 7 > 2 é falso
-                <br>
-                5 < 3 e 7 < 2 é falso
-                <br>
-                <br>
-                A tabela é verdade, portanto é:
-                <br>
-                <ion-img src="assets/tbv.jpg"></ion-img>
-                <br>
-                b) <b>Disjunção:</b> A v B   - A disjunção será verdadeira se pelo menos uma das proposições forem verdadeiras, ou seja:
-                <br>
-                5 > 3 e 7 > 2 é verdadeiro
-                <br>
-                5 > 3 e 7 < 2 é verdadeiro
-                <br>
-                5 < 3 e 7 > 2 é verdadeiro
-                <br>
-                5 < 3 e 7 < 2 é falso
-                <br>
-                <br>
-                A tabela é verdade, portanto é:
-                <br>
-                <ion-img src="assets/tbo.jpg"></ion-img>
-                <br>
-                c) <b>Negação:</b> A’ – Tabela verdade:
-                <br>
-                <ion-img src="assets/tbn.jpg"></ion-img>
-                <br>
-                d) <b>Implicação:</b> A -----> B
-                <br>
-                A é chamado antecedente e B é chamado consequente.
-                <br>
-                A -----> B ( A implica B ) significa  também:
-                <br>
-                B decorre de A;
-                <br>
-                A é condição suficiente para B;
-                <br>
-                Se A , então B;
-                <br>
-                <br>
-                Na implicação é um pouco mais difícil de se verificar quando é verdadeiro ou falso, portanto, considere  o seguinte : a implicação só será falsa se o antecedente for verdadeiro e o conseqüente falso.
-                <br>
-                <br>
-                Supondo A: passar no vestibular e B: ganhar um carro, a implicação A -----> B significa  que ganhar o carro decorre do fato de  ter passado no vestibular. 
-                <br>
-                <br>
-                Se  não passar no vestibular pode-se ganhar o carro ou não, por isto é convencionado ser verdadeiro. Só é falso se passar no vestibular e não ganhar o carro. Logo a tabela verdade é:
-                <br>
-                <ion-img src="assets/tbi.jpg"></ion-img>
-                <br>
-                e) <b>Equivalência:</b> A <----> B
-                <br>
-                A equivalência é uma dupla implicação, ou seja,  ( A ---> B ) ^ ( B ---> A ) e lê-se: A se, somente se, B. A tabela verdadeira é a seguinte:
-                <br>
-                <ion-img src="assets/tbe.jpg"></ion-img>
-            </p>
-          </ion-card-content>
-        </ion-card>
-    </ion-content>
-</ion-content>
-
-
-
-
-
 
 

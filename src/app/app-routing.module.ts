@@ -20,7 +20,8 @@ const routes: Routes = [
   { path: 'de-morgan', loadChildren: './de-morgan/de-morgan.module#DeMorganPageModule' },
   { path: 'tautologie', loadChildren: './tautologie/tautologie.module#TautologiePageModule' },
   { path: 'argument', loadChildren: './argument/argument.module#ArgumentPageModule' },  { path: 'inference', loadChildren: './inference/inference.module#InferencePageModule' },
-  { path: 'sobre', loadChildren: './sobre/sobre.module#SobrePageModule' }
+  { path: 'sobre', loadChildren: './sobre/sobre.module#SobrePageModule' },
+  { path: 'true-table-iframe', loadChildren: './true-table-iframe/true-table-iframe.module#TrueTableIframePageModule' }
 
 ];
 
